@@ -7,7 +7,7 @@ local TeamGui = script.Parent
 local Event = TeamGui:WaitForChild("TeamGuiEvent")
 local Frame = TeamGui.ButtonFrame
 local Ref = Frame.Reference
-local Udim2 = UDim2.new(0,0,0.028,0)
+local Udim2 = UDim2.new(0,0,0.023,0)
 
 -- Table to contain the buttons
 local Buttons = {Ref}
