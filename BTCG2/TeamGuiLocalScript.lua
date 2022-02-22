@@ -21,6 +21,7 @@ for _,Team in pairs(GetTeams) do
 	local Button = Ref:Clone()
 	Button.Name = Teams[Team].Name
 	Button.Text = Teams[Team].Name
+	Button.BackgroundColor = Teams[Team].TeamColor
 	Button.Visible = true
 	Button.Parent = Frame
 	table.insert(Buttons, Button)
