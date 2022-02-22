@@ -1,4 +1,4 @@
--- Team Changer GUI 2 by DontEatThemCookies [02/21/2022]
+-- Team Changer GUI 2.1 by DontEatThemCookies [02/22/2022]
 
 -- CONFIGURATION
 local TeamTable = {
@@ -47,7 +47,9 @@ Event.OnServerEvent:Connect(function(player: Player, team: string)
 		-- Handle group ID misconfiguration (missing or invalid value)
 		if not GroupId or type(GroupId) ~= "number" then 
 			warn(fmt("misconfigured team '%s' - invalid/missing group ID", team))
-			Event:FireClient(player, fmt("Misconfigured team '%s'", team)) 
+			Event:FireClient(player, fmt("Misconfigured team '%s'", team))
+			wait(Cooldown)
+			Dbounce = false
 			return
 		end
 		-- Assume that lowest group rank is required if rank ID is unspecified or misconfigured
@@ -57,7 +59,9 @@ Event.OnServerEvent:Connect(function(player: Player, team: string)
 		
 		-- Deny team change if player does not meet prerequisites
 		if player:GetRankInGroup(GroupId) < RankId then 
-			Event:FireClient(player, fmt("Cannot join team '%s'", team)) 
+			Event:FireClient(player, fmt("Cannot join team '%s'", team))
+			wait(Cooldown)
+			Dbounce = false
 			return 
 		end
 		

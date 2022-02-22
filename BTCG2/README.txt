@@ -1,4 +1,4 @@
-Basic Team Changer GUI Version 2 (02/21/2022)
+Basic Team Changer GUI Version 2.1 (02/22/2022)
 Scripted by DontEatThemCookies
 
 The Basic Team Changer GUI is exactly what its
@@ -35,3 +35,14 @@ For example:
 There's also a configurable cooldown time. Its value
 is how many seconds a player would need to wait until
 the player can change teams again.
+
+==========================================================
+
+CHANGELOG
+
+v2.1 [02/22/22]
+Fixed improper debounce behavior
+Other minor alterations
+
+v2.0 [02/21/22]
+Initial release
