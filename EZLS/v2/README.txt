@@ -9,7 +9,7 @@ EZLS automatically creates "leaderstats" folders for
 every player. To construct a stat, just call the module
 script itself. The syntax of the function is as follows:
 
-local EZLS = require(game.ServerScriptService.EZLS)
+local EZLS = require(game.ServerScriptService.EZLS2)
 EZLS([type], [name], [player])
 
 [type] can be one of three strings: "int" corresponds to
