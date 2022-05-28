@@ -12,5 +12,6 @@ can use, modify, distribute, etc. as long as proper credit is preserved.
 | EZLS      | Simple leaderstats wrapper |
 | SFilter   | Text filtering wrapper     |
 | ServerLoc | Server location indicator  |
+| RndStrSvc | Returns a random string from a folder of StringValues |
 
 Proper documentation (maybe) coming soon
