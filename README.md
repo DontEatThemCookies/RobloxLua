@@ -1,8 +1,8 @@
 # DontEatThemCookies' Roblox Lua Scripts
 
-This is the central GitHub repository for my Roblox Lua scripts.
-All works here are licensed under the **MIT License**. Basically, you 
-can use, modify, distribute, etc. as long as proper credit is preserved.
+This is the central GitHub repository for all my Roblox Lua scripts.
+Everything is licensed under the **MIT License**. Basically, you can use, 
+modify, distribute, etc. as long as proper credit is preserved.
 [Bugs/Feedback](https://github.com/DontEatThemCookies/RobloxLua/issues)
 
 | System    | Description                |
@@ -14,4 +14,3 @@ can use, modify, distribute, etc. as long as proper credit is preserved.
 | ServerLoc | Server location indicator  |
 | RndStrSvc | Returns a random string from a folder of StringValues |
 
-Proper documentation (maybe) coming soon
