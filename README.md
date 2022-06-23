@@ -13,4 +13,4 @@ modify, distribute, etc. as long as proper credit is preserved.
 | SFilter   | Text filtering wrapper     |
 | ServerLoc | Server location indicator  |
 | RndStrSvc | Returns a random string from a folder of StringValues |
-
+| SprintSys | Player sprinting system (original, I know) |
